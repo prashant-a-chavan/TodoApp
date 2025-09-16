@@ -12,8 +12,6 @@ public class TaskService {
 
     private final TaskRepository taskRepository;
 
-    private int test;
-
     @Autowired
     public TaskService(TaskRepository taskRepository){
         this.taskRepository = taskRepository;
