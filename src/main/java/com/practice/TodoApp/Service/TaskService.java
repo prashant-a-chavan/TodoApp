@@ -4,7 +4,6 @@ import com.practice.TodoApp.Model.Task;
 import com.practice.TodoApp.Repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
