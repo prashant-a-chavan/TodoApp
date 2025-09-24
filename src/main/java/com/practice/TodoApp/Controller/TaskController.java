@@ -26,6 +26,7 @@ public class TaskController {
     {
         taskService.createTask(title);
         return ResponseEntity.status(HttpStatus.CREATED).build();
+
     }
 
     @GetMapping("/fetch")
